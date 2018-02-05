@@ -119,7 +119,7 @@ void print_fm(int f){
          cout << "Fault Model : S@0 at input Y" << endl;
          break;
        case 3:
-         cout << "Fault Model : S@0 at input Z" << endl;
+         cout << "Fault Model : S@0 at output Z" << endl;
          break;
        case 4:
          cout << "Fault Model : S@1 at input X" << endl;
@@ -128,7 +128,7 @@ void print_fm(int f){
          cout << "Fault Model : S@1 at input Y" << endl;
          break;
        case 6:
-         cout << "Fault Model : S@1 at input Z" << endl;
+         cout << "Fault Model : S@1 at output Z" << endl;
          break;
        default:
          cout << "Error, bad fault model selection" << endl;
@@ -174,34 +174,34 @@ main (){
 
  for (int f=0;f<7;f++){
 
-    DataOutput << "-----------------------------------------" << endl;
+    DataOutput << "------------------------------------------------" << endl;
     switch (f){
        case 0:
          DataOutput << "Fault Model : Fault Free" << endl;
          break;
        case 1:
-         DataOutput << "Fault Model : S@0 at input X of the gate" << endl;
+         DataOutput << "Fault Model : S@0 at input X of the faulty gate" << endl;
          break;
        case 2:
-         DataOutput << "Fault Model : S@0 at input Y of the gate" << endl;
+         DataOutput << "Fault Model : S@0 at input Y of the faulty gate" << endl;
          break;
        case 3:
-         DataOutput << "Fault Model : S@0 at input Z of the gate" << endl;
+         DataOutput << "Fault Model : S@0 at output Z of the faulty gate" << endl;
          break;
        case 4:
-         DataOutput << "Fault Model : S@1 at input X of the gate" << endl;
+         DataOutput << "Fault Model : S@1 at input X of the faulty gate" << endl;
          break;
        case 5:
-         DataOutput << "Fault Model : S@1 at input Y of the gate" << endl;
+         DataOutput << "Fault Model : S@1 at input Y of the faulty gate" << endl;
          break;
        case 6:
-         DataOutput << "Fault Model : S@1 at input Z of the gate" << endl;
+         DataOutput << "Fault Model : S@1 at output Z of the faulty gate" << endl;
          break;
        default:
          DataOutput << "Error, bad fault model selection" << endl;
          break;
       }
-    DataOutput << "-----------------------------------------" << endl;
+    DataOutput << "------------------------------------------------" << endl;
 
     for(int l=0;l<2;l++){
        for(int k=0;k<2;k++){
@@ -239,6 +239,7 @@ main (){
                   //cout << "          B=" <<B[1]<<B[0] << " A=" <<A[1]<<A[0]<< "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0]<< endl;
                   DataOutput << "          B=" <<B[1]<<B[0] << " A="<<A[1]<<A[0] << "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0] << "      " << fixed << setprecision(2) << e << "%" << endl;
 
+                  aux = aux*2;
                }
              }
            }
