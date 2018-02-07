@@ -211,17 +211,7 @@ main (){
             for(int i=0;i<2;i++){
                aux = 1;
                   //cout << "Faulty Gate" << endl;
-                  DataOutput << endl << "Faulty Gate      Inputs        Output       Error" << endl;
-
-                  // 2-bit width multiplier circuit GOLDEN CASE
-                  c_gc[0]=AND2(B[0],A[0],0,0,0); //G0
-                  s_gc[0]=AND2(B[0],A[1],0,0,0); //G1
-                  s_gc[1]=AND2(B[1],A[0],0,0,0); //G2
-                  s_gc[2]=AND2(B[1],A[1],0,0,0); //G3
-                  s_gc[3]=AND2(s[1],s[0],0,0,0); //G4
-                  c_gc[3]=AND2(s[2],s[3],0,0,0); //G5
-                  c_gc[1]=XOR2(s[1],s[0],0,0,0); //G6
-                  c_gc[2]=XOR2(s[2],s[3],0,0,0); //G7
+                  DataOutput << endl << "Faulty Gate      Inputs        Output       Error     Golden Case" << endl;
 
                for(int g=0;g<8;g++){
                   A[1]=j; A[0]=i;
@@ -246,6 +236,26 @@ main (){
                   c[1]=XOR2(s[1],s[0],f,v[6],0); //G6
                   c[2]=XOR2(s[2],s[3],f,v[7],0); //G7
 
+                  if (B[1]==0 && B[0]==0 && A[1]==0 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==0 && B[0]==0 && A[1]==0 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==0 && B[0]==0 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==0 && B[0]==0 && A[1]==1 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+
+                  if (B[1]==0 && B[0]==1 && A[1]==0 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==0 && B[0]==1 && A[1]==0 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=1;}
+                  if (B[1]==0 && B[0]==1 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=1; c_gc[0]=0;}
+                  if (B[1]==0 && B[0]==1 && A[1]==1 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=1; c_gc[0]=1;}
+
+                  if (B[1]==1 && B[0]==0 && A[1]==0 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==1 && B[0]==0 && A[1]==0 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=1; c_gc[0]=0;}
+                  if (B[1]==1 && B[0]==0 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=1; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==1 && B[0]==0 && A[1]==1 && A[0]==1) {c_gc[3]=0; c_gc[2]=1; c_gc[1]=1; c_gc[0]=0;}
+
+                  if (B[1]==1 && B[0]==1 && A[1]==0 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
+                  if (B[1]==1 && B[0]==1 && A[1]==0 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=1; c_gc[0]=1;}
+                  if (B[1]==1 && B[0]==1 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=1; c_gc[1]=1; c_gc[0]=0;}
+                  if (B[1]==1 && B[0]==1 && A[1]==1 && A[0]==1) {c_gc[3]=1; c_gc[2]=0; c_gc[1]=0; c_gc[0]=1;}
+
                   //error calculation
                   if (c[0] != c_gc[0])   d=d+1;
                   if (c[1] != c_gc[1])   d=d+2;
@@ -257,7 +267,7 @@ main (){
                   //cout << "  G" << g << "  => ";
                   DataOutput << "    G" << g;
                   //cout << "          B=" <<B[1]<<B[0] << " A=" <<A[1]<<A[0]<< "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0]<< endl;
-                  DataOutput << "          B=" <<B[1]<<B[0] << " A="<<A[1]<<A[0] << "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0] << "      " << fixed << setprecision(2) << e << "%" << endl;
+                  DataOutput << "          B=" <<B[1]<<B[0] << " A="<<A[1]<<A[0] << "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0] << "      " << fixed << setprecision(2) << e << "%" << "\t" << c_gc[3]<<c_gc[2]<<c_gc[1]<<c_gc[0] << endl;
 
                   aux = aux*2;
 
