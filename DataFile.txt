@@ -1,0 +1,1151 @@
+POLITECNICO DI TORINO - WJPEREZH & ESANCHEZ - 2018
+2-bit Multiplier Simulator
+
+------------------------------------------------
+Fault Model : Fault Free
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      53.33%
+    G1          B=00 A=00     AxB=0000      53.33%
+    G2          B=00 A=00     AxB=0000      53.33%
+    G3          B=00 A=00     AxB=0000      53.33%
+    G4          B=00 A=00     AxB=0000      53.33%
+    G5          B=00 A=00     AxB=0000      53.33%
+    G6          B=00 A=00     AxB=0000      53.33%
+    G7          B=00 A=00     AxB=0000      53.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0000      0.00%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0000      0.00%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0000      0.00%
+    G7          B=00 A=01     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0000      0.00%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0000      0.00%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0000      0.00%
+    G7          B=00 A=10     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0000      0.00%
+    G1          B=00 A=11     AxB=0000      0.00%
+    G2          B=00 A=11     AxB=0000      0.00%
+    G3          B=00 A=11     AxB=0000      0.00%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0000      0.00%
+    G7          B=00 A=11     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0000      0.00%
+    G1          B=01 A=00     AxB=0000      0.00%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0000      0.00%
+    G7          B=01 A=00     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0001      6.67%
+    G1          B=01 A=01     AxB=0001      6.67%
+    G2          B=01 A=01     AxB=0001      6.67%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0001      6.67%
+    G7          B=01 A=01     AxB=0001      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0010      20.00%
+    G1          B=01 A=10     AxB=0010      20.00%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0010      20.00%
+    G4          B=01 A=10     AxB=0010      20.00%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0010      20.00%
+    G7          B=01 A=10     AxB=0010      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0011      6.67%
+    G1          B=01 A=11     AxB=0011      6.67%
+    G2          B=01 A=11     AxB=0011      6.67%
+    G3          B=01 A=11     AxB=0011      6.67%
+    G4          B=01 A=11     AxB=0011      6.67%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0011      6.67%
+    G7          B=01 A=11     AxB=0011      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0000      20.00%
+    G3          B=10 A=00     AxB=0000      20.00%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0000      20.00%
+    G7          B=10 A=00     AxB=0000      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0010      13.33%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0010      13.33%
+    G3          B=10 A=01     AxB=0010      13.33%
+    G4          B=10 A=01     AxB=0010      13.33%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0010      13.33%
+    G7          B=10 A=01     AxB=0010      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0100      40.00%
+    G2          B=10 A=10     AxB=0100      40.00%
+    G3          B=10 A=10     AxB=0100      40.00%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=0100      40.00%
+    G6          B=10 A=10     AxB=0100      40.00%
+    G7          B=10 A=10     AxB=0100      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0110      13.33%
+    G1          B=10 A=11     AxB=0110      13.33%
+    G2          B=10 A=11     AxB=0110      13.33%
+    G3          B=10 A=11     AxB=0110      13.33%
+    G4          B=10 A=11     AxB=0110      13.33%
+    G5          B=10 A=11     AxB=0110      13.33%
+    G6          B=10 A=11     AxB=0110      13.33%
+    G7          B=10 A=11     AxB=0110      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0000      40.00%
+    G1          B=11 A=00     AxB=0000      40.00%
+    G2          B=11 A=00     AxB=0000      40.00%
+    G3          B=11 A=00     AxB=0000      40.00%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0000      40.00%
+    G7          B=11 A=00     AxB=0000      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0011      20.00%
+    G1          B=11 A=01     AxB=0011      20.00%
+    G2          B=11 A=01     AxB=0011      20.00%
+    G3          B=11 A=01     AxB=0011      20.00%
+    G4          B=11 A=01     AxB=0011      20.00%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0011      20.00%
+    G7          B=11 A=01     AxB=0011      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0110      33.33%
+    G1          B=11 A=10     AxB=0110      33.33%
+    G2          B=11 A=10     AxB=0110      33.33%
+    G3          B=11 A=10     AxB=0110      33.33%
+    G4          B=11 A=10     AxB=0110      33.33%
+    G5          B=11 A=10     AxB=0110      33.33%
+    G6          B=11 A=10     AxB=0110      33.33%
+    G7          B=11 A=10     AxB=0110      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1001      100.00%
+    G1          B=11 A=11     AxB=1001      100.00%
+    G2          B=11 A=11     AxB=1001      100.00%
+    G3          B=11 A=11     AxB=1001      100.00%
+    G4          B=11 A=11     AxB=1001      100.00%
+    G5          B=11 A=11     AxB=1001      100.00%
+    G6          B=11 A=11     AxB=1001      100.00%
+    G7          B=11 A=11     AxB=1001      100.00%
+
+------------------------------------------------
+Fault Model : S@0 at input X of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      60.00%
+    G1          B=00 A=00     AxB=0000      60.00%
+    G2          B=00 A=00     AxB=0000      60.00%
+    G3          B=00 A=00     AxB=0000      60.00%
+    G4          B=00 A=00     AxB=0000      60.00%
+    G5          B=00 A=00     AxB=0000      60.00%
+    G6          B=00 A=00     AxB=0000      60.00%
+    G7          B=00 A=00     AxB=0000      60.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0000      0.00%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0000      0.00%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0000      0.00%
+    G7          B=00 A=01     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0000      0.00%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0000      0.00%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0000      0.00%
+    G7          B=00 A=10     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0000      0.00%
+    G1          B=00 A=11     AxB=0000      0.00%
+    G2          B=00 A=11     AxB=0000      0.00%
+    G3          B=00 A=11     AxB=0000      0.00%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0000      0.00%
+    G7          B=00 A=11     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0000      0.00%
+    G1          B=01 A=00     AxB=0000      0.00%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0000      0.00%
+    G7          B=01 A=00     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0000      0.00%
+    G1          B=01 A=01     AxB=0001      6.67%
+    G2          B=01 A=01     AxB=0001      6.67%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0001      6.67%
+    G7          B=01 A=01     AxB=0001      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0010      20.00%
+    G1          B=01 A=10     AxB=0000      6.67%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0010      20.00%
+    G4          B=01 A=10     AxB=0010      20.00%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0010      20.00%
+    G7          B=01 A=10     AxB=0010      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0010      0.00%
+    G1          B=01 A=11     AxB=0001      20.00%
+    G2          B=01 A=11     AxB=0011      6.67%
+    G3          B=01 A=11     AxB=0011      6.67%
+    G4          B=01 A=11     AxB=0011      6.67%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0011      6.67%
+    G7          B=01 A=11     AxB=0011      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0000      20.00%
+    G3          B=10 A=00     AxB=0000      20.00%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0000      20.00%
+    G7          B=10 A=00     AxB=0000      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0010      13.33%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0000      0.00%
+    G3          B=10 A=01     AxB=0010      13.33%
+    G4          B=10 A=01     AxB=0010      13.33%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0000      0.00%
+    G7          B=10 A=01     AxB=0010      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0100      40.00%
+    G2          B=10 A=10     AxB=0100      40.00%
+    G3          B=10 A=10     AxB=0000      13.33%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=0100      40.00%
+    G6          B=10 A=10     AxB=0100      40.00%
+    G7          B=10 A=10     AxB=0000      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0110      13.33%
+    G1          B=10 A=11     AxB=0110      13.33%
+    G2          B=10 A=11     AxB=0100      0.00%
+    G3          B=10 A=11     AxB=0010      40.00%
+    G4          B=10 A=11     AxB=0110      13.33%
+    G5          B=10 A=11     AxB=0110      13.33%
+    G6          B=10 A=11     AxB=0100      0.00%
+    G7          B=10 A=11     AxB=0010      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0000      40.00%
+    G1          B=11 A=00     AxB=0000      40.00%
+    G2          B=11 A=00     AxB=0000      40.00%
+    G3          B=11 A=00     AxB=0000      40.00%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0000      40.00%
+    G7          B=11 A=00     AxB=0000      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0010      13.33%
+    G1          B=11 A=01     AxB=0011      20.00%
+    G2          B=11 A=01     AxB=0001      6.67%
+    G3          B=11 A=01     AxB=0011      20.00%
+    G4          B=11 A=01     AxB=0011      20.00%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0001      6.67%
+    G7          B=11 A=01     AxB=0011      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0110      33.33%
+    G1          B=11 A=10     AxB=0100      46.67%
+    G2          B=11 A=10     AxB=0110      33.33%
+    G3          B=11 A=10     AxB=0010      6.67%
+    G4          B=11 A=10     AxB=0110      33.33%
+    G5          B=11 A=10     AxB=0110      33.33%
+    G6          B=11 A=10     AxB=0110      33.33%
+    G7          B=11 A=10     AxB=0010      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1000      93.33%
+    G1          B=11 A=11     AxB=0111      6.67%
+    G2          B=11 A=11     AxB=0111      6.67%
+    G3          B=11 A=11     AxB=0101      20.00%
+    G4          B=11 A=11     AxB=0101      20.00%
+    G5          B=11 A=11     AxB=0001      46.67%
+    G6          B=11 A=11     AxB=1011      86.67%
+    G7          B=11 A=11     AxB=1101      73.33%
+
+------------------------------------------------
+Fault Model : S@0 at input Y of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      60.00%
+    G1          B=00 A=00     AxB=0000      60.00%
+    G2          B=00 A=00     AxB=0000      60.00%
+    G3          B=00 A=00     AxB=0000      60.00%
+    G4          B=00 A=00     AxB=0000      60.00%
+    G5          B=00 A=00     AxB=0000      60.00%
+    G6          B=00 A=00     AxB=0000      60.00%
+    G7          B=00 A=00     AxB=0000      60.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0000      0.00%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0000      0.00%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0000      0.00%
+    G7          B=00 A=01     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0000      0.00%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0000      0.00%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0000      0.00%
+    G7          B=00 A=10     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0000      0.00%
+    G1          B=00 A=11     AxB=0000      0.00%
+    G2          B=00 A=11     AxB=0000      0.00%
+    G3          B=00 A=11     AxB=0000      0.00%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0000      0.00%
+    G7          B=00 A=11     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0000      0.00%
+    G1          B=01 A=00     AxB=0000      0.00%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0000      0.00%
+    G7          B=01 A=00     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0000      0.00%
+    G1          B=01 A=01     AxB=0001      6.67%
+    G2          B=01 A=01     AxB=0001      6.67%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0001      6.67%
+    G7          B=01 A=01     AxB=0001      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0010      20.00%
+    G1          B=01 A=10     AxB=0000      6.67%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0010      20.00%
+    G4          B=01 A=10     AxB=0010      20.00%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0000      6.67%
+    G7          B=01 A=10     AxB=0010      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0010      0.00%
+    G1          B=01 A=11     AxB=0001      20.00%
+    G2          B=01 A=11     AxB=0011      6.67%
+    G3          B=01 A=11     AxB=0011      6.67%
+    G4          B=01 A=11     AxB=0011      6.67%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0001      20.00%
+    G7          B=01 A=11     AxB=0011      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0000      20.00%
+    G3          B=10 A=00     AxB=0000      20.00%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0000      20.00%
+    G7          B=10 A=00     AxB=0000      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0010      13.33%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0000      0.00%
+    G3          B=10 A=01     AxB=0010      13.33%
+    G4          B=10 A=01     AxB=0010      13.33%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0010      13.33%
+    G7          B=10 A=01     AxB=0010      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0100      40.00%
+    G2          B=10 A=10     AxB=0100      40.00%
+    G3          B=10 A=10     AxB=0000      13.33%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=0100      40.00%
+    G6          B=10 A=10     AxB=0100      40.00%
+    G7          B=10 A=10     AxB=0100      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0110      13.33%
+    G1          B=10 A=11     AxB=0110      13.33%
+    G2          B=10 A=11     AxB=0100      0.00%
+    G3          B=10 A=11     AxB=0010      40.00%
+    G4          B=10 A=11     AxB=0110      13.33%
+    G5          B=10 A=11     AxB=0110      13.33%
+    G6          B=10 A=11     AxB=0110      13.33%
+    G7          B=10 A=11     AxB=0110      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0000      40.00%
+    G1          B=11 A=00     AxB=0000      40.00%
+    G2          B=11 A=00     AxB=0000      40.00%
+    G3          B=11 A=00     AxB=0000      40.00%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0000      40.00%
+    G7          B=11 A=00     AxB=0000      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0010      13.33%
+    G1          B=11 A=01     AxB=0011      20.00%
+    G2          B=11 A=01     AxB=0001      6.67%
+    G3          B=11 A=01     AxB=0011      20.00%
+    G4          B=11 A=01     AxB=0011      20.00%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0011      20.00%
+    G7          B=11 A=01     AxB=0011      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0110      33.33%
+    G1          B=11 A=10     AxB=0100      46.67%
+    G2          B=11 A=10     AxB=0110      33.33%
+    G3          B=11 A=10     AxB=0010      6.67%
+    G4          B=11 A=10     AxB=0110      33.33%
+    G5          B=11 A=10     AxB=0110      33.33%
+    G6          B=11 A=10     AxB=0100      46.67%
+    G7          B=11 A=10     AxB=0110      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1000      93.33%
+    G1          B=11 A=11     AxB=0111      6.67%
+    G2          B=11 A=11     AxB=0111      6.67%
+    G3          B=11 A=11     AxB=0101      20.00%
+    G4          B=11 A=11     AxB=0101      20.00%
+    G5          B=11 A=11     AxB=0001      46.67%
+    G6          B=11 A=11     AxB=1011      86.67%
+    G7          B=11 A=11     AxB=1101      73.33%
+
+------------------------------------------------
+Fault Model : S@0 at output Z of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      60.00%
+    G1          B=00 A=00     AxB=0000      60.00%
+    G2          B=00 A=00     AxB=0000      60.00%
+    G3          B=00 A=00     AxB=0000      60.00%
+    G4          B=00 A=00     AxB=0000      60.00%
+    G5          B=00 A=00     AxB=0000      60.00%
+    G6          B=00 A=00     AxB=0000      60.00%
+    G7          B=00 A=00     AxB=0000      60.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0000      0.00%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0000      0.00%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0000      0.00%
+    G7          B=00 A=01     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0000      0.00%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0000      0.00%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0000      0.00%
+    G7          B=00 A=10     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0000      0.00%
+    G1          B=00 A=11     AxB=0000      0.00%
+    G2          B=00 A=11     AxB=0000      0.00%
+    G3          B=00 A=11     AxB=0000      0.00%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0000      0.00%
+    G7          B=00 A=11     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0000      0.00%
+    G1          B=01 A=00     AxB=0000      0.00%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0000      0.00%
+    G7          B=01 A=00     AxB=0000      0.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0000      0.00%
+    G1          B=01 A=01     AxB=0001      6.67%
+    G2          B=01 A=01     AxB=0001      6.67%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0001      6.67%
+    G7          B=01 A=01     AxB=0001      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0010      20.00%
+    G1          B=01 A=10     AxB=0000      6.67%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0010      20.00%
+    G4          B=01 A=10     AxB=0010      20.00%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0000      6.67%
+    G7          B=01 A=10     AxB=0010      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0010      0.00%
+    G1          B=01 A=11     AxB=0001      20.00%
+    G2          B=01 A=11     AxB=0011      6.67%
+    G3          B=01 A=11     AxB=0011      6.67%
+    G4          B=01 A=11     AxB=0011      6.67%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0001      20.00%
+    G7          B=01 A=11     AxB=0011      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0000      20.00%
+    G3          B=10 A=00     AxB=0000      20.00%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0000      20.00%
+    G7          B=10 A=00     AxB=0000      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0010      13.33%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0000      0.00%
+    G3          B=10 A=01     AxB=0010      13.33%
+    G4          B=10 A=01     AxB=0010      13.33%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0000      0.00%
+    G7          B=10 A=01     AxB=0010      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0100      40.00%
+    G2          B=10 A=10     AxB=0100      40.00%
+    G3          B=10 A=10     AxB=0000      13.33%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=0100      40.00%
+    G6          B=10 A=10     AxB=0100      40.00%
+    G7          B=10 A=10     AxB=0000      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0110      13.33%
+    G1          B=10 A=11     AxB=0110      13.33%
+    G2          B=10 A=11     AxB=0100      0.00%
+    G3          B=10 A=11     AxB=0010      40.00%
+    G4          B=10 A=11     AxB=0110      13.33%
+    G5          B=10 A=11     AxB=0110      13.33%
+    G6          B=10 A=11     AxB=0100      0.00%
+    G7          B=10 A=11     AxB=0010      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0000      40.00%
+    G1          B=11 A=00     AxB=0000      40.00%
+    G2          B=11 A=00     AxB=0000      40.00%
+    G3          B=11 A=00     AxB=0000      40.00%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0000      40.00%
+    G7          B=11 A=00     AxB=0000      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0010      13.33%
+    G1          B=11 A=01     AxB=0011      20.00%
+    G2          B=11 A=01     AxB=0001      6.67%
+    G3          B=11 A=01     AxB=0011      20.00%
+    G4          B=11 A=01     AxB=0011      20.00%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0001      6.67%
+    G7          B=11 A=01     AxB=0011      20.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0110      33.33%
+    G1          B=11 A=10     AxB=0100      46.67%
+    G2          B=11 A=10     AxB=0110      33.33%
+    G3          B=11 A=10     AxB=0010      6.67%
+    G4          B=11 A=10     AxB=0110      33.33%
+    G5          B=11 A=10     AxB=0110      33.33%
+    G6          B=11 A=10     AxB=0100      46.67%
+    G7          B=11 A=10     AxB=0010      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1000      93.33%
+    G1          B=11 A=11     AxB=0111      6.67%
+    G2          B=11 A=11     AxB=0111      6.67%
+    G3          B=11 A=11     AxB=0101      20.00%
+    G4          B=11 A=11     AxB=0101      20.00%
+    G5          B=11 A=11     AxB=0001      46.67%
+    G6          B=11 A=11     AxB=1001      100.00%
+    G7          B=11 A=11     AxB=1001      100.00%
+
+------------------------------------------------
+Fault Model : S@1 at input X of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      60.00%
+    G1          B=00 A=00     AxB=0000      60.00%
+    G2          B=00 A=00     AxB=0000      60.00%
+    G3          B=00 A=00     AxB=0000      60.00%
+    G4          B=00 A=00     AxB=0000      60.00%
+    G5          B=00 A=00     AxB=0000      60.00%
+    G6          B=00 A=00     AxB=0010      73.33%
+    G7          B=00 A=00     AxB=0100      86.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0001      6.67%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0010      13.33%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0010      13.33%
+    G7          B=00 A=01     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0010      13.33%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0100      26.67%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0010      13.33%
+    G7          B=00 A=10     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0001      6.67%
+    G1          B=00 A=11     AxB=0010      13.33%
+    G2          B=00 A=11     AxB=0010      13.33%
+    G3          B=00 A=11     AxB=0100      26.67%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0010      13.33%
+    G7          B=00 A=11     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0000      0.00%
+    G1          B=01 A=00     AxB=0000      0.00%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0010      13.33%
+    G7          B=01 A=00     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0001      6.67%
+    G1          B=01 A=01     AxB=0001      6.67%
+    G2          B=01 A=01     AxB=0011      20.00%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0011      20.00%
+    G7          B=01 A=01     AxB=0101      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0010      20.00%
+    G1          B=01 A=10     AxB=0010      20.00%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0110      46.67%
+    G4          B=01 A=10     AxB=0110      46.67%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0000      6.67%
+    G7          B=01 A=10     AxB=0110      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0011      6.67%
+    G1          B=01 A=11     AxB=0011      6.67%
+    G2          B=01 A=11     AxB=0101      46.67%
+    G3          B=01 A=11     AxB=0111      33.33%
+    G4          B=01 A=11     AxB=0111      33.33%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0001      20.00%
+    G7          B=01 A=11     AxB=0111      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0000      20.00%
+    G3          B=10 A=00     AxB=0000      20.00%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0010      6.67%
+    G7          B=10 A=00     AxB=0100      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0011      20.00%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0010      13.33%
+    G3          B=10 A=01     AxB=0010      13.33%
+    G4          B=10 A=01     AxB=0010      13.33%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0010      13.33%
+    G7          B=10 A=01     AxB=0110      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0110      26.67%
+    G2          B=10 A=10     AxB=0100      40.00%
+    G3          B=10 A=10     AxB=0100      40.00%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=0100      40.00%
+    G6          B=10 A=10     AxB=0110      26.67%
+    G7          B=10 A=10     AxB=0100      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0111      20.00%
+    G1          B=10 A=11     AxB=1000      80.00%
+    G2          B=10 A=11     AxB=0110      13.33%
+    G3          B=10 A=11     AxB=0110      13.33%
+    G4          B=10 A=11     AxB=0110      13.33%
+    G5          B=10 A=11     AxB=0110      13.33%
+    G6          B=10 A=11     AxB=0110      13.33%
+    G7          B=10 A=11     AxB=0110      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0000      40.00%
+    G1          B=11 A=00     AxB=0000      40.00%
+    G2          B=11 A=00     AxB=0000      40.00%
+    G3          B=11 A=00     AxB=0000      40.00%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0010      26.67%
+    G7          B=11 A=00     AxB=0100      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0011      20.00%
+    G1          B=11 A=01     AxB=0011      20.00%
+    G2          B=11 A=01     AxB=0011      20.00%
+    G3          B=11 A=01     AxB=0011      20.00%
+    G4          B=11 A=01     AxB=0011      20.00%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0011      20.00%
+    G7          B=11 A=01     AxB=0111      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0110      33.33%
+    G1          B=11 A=10     AxB=0110      33.33%
+    G2          B=11 A=10     AxB=0110      33.33%
+    G3          B=11 A=10     AxB=0110      33.33%
+    G4          B=11 A=10     AxB=1010      60.00%
+    G5          B=11 A=10     AxB=0110      33.33%
+    G6          B=11 A=10     AxB=0100      46.67%
+    G7          B=11 A=10     AxB=0110      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1001      100.00%
+    G1          B=11 A=11     AxB=1001      100.00%
+    G2          B=11 A=11     AxB=1001      100.00%
+    G3          B=11 A=11     AxB=1001      100.00%
+    G4          B=11 A=11     AxB=1001      100.00%
+    G5          B=11 A=11     AxB=1001      100.00%
+    G6          B=11 A=11     AxB=1001      100.00%
+    G7          B=11 A=11     AxB=1001      100.00%
+
+------------------------------------------------
+Fault Model : S@1 at input Y of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0000      60.00%
+    G1          B=00 A=00     AxB=0000      60.00%
+    G2          B=00 A=00     AxB=0000      60.00%
+    G3          B=00 A=00     AxB=0000      60.00%
+    G4          B=00 A=00     AxB=0000      60.00%
+    G5          B=00 A=00     AxB=0000      60.00%
+    G6          B=00 A=00     AxB=0010      73.33%
+    G7          B=00 A=00     AxB=0100      86.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0000      0.00%
+    G1          B=00 A=01     AxB=0000      0.00%
+    G2          B=00 A=01     AxB=0000      0.00%
+    G3          B=00 A=01     AxB=0000      0.00%
+    G4          B=00 A=01     AxB=0000      0.00%
+    G5          B=00 A=01     AxB=0000      0.00%
+    G6          B=00 A=01     AxB=0010      13.33%
+    G7          B=00 A=01     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0000      0.00%
+    G1          B=00 A=10     AxB=0000      0.00%
+    G2          B=00 A=10     AxB=0000      0.00%
+    G3          B=00 A=10     AxB=0000      0.00%
+    G4          B=00 A=10     AxB=0000      0.00%
+    G5          B=00 A=10     AxB=0000      0.00%
+    G6          B=00 A=10     AxB=0010      13.33%
+    G7          B=00 A=10     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0000      0.00%
+    G1          B=00 A=11     AxB=0000      0.00%
+    G2          B=00 A=11     AxB=0000      0.00%
+    G3          B=00 A=11     AxB=0000      0.00%
+    G4          B=00 A=11     AxB=0000      0.00%
+    G5          B=00 A=11     AxB=0000      0.00%
+    G6          B=00 A=11     AxB=0010      13.33%
+    G7          B=00 A=11     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0001      6.67%
+    G1          B=01 A=00     AxB=0010      13.33%
+    G2          B=01 A=00     AxB=0000      0.00%
+    G3          B=01 A=00     AxB=0000      0.00%
+    G4          B=01 A=00     AxB=0000      0.00%
+    G5          B=01 A=00     AxB=0000      0.00%
+    G6          B=01 A=00     AxB=0010      13.33%
+    G7          B=01 A=00     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0001      6.67%
+    G1          B=01 A=01     AxB=0011      20.00%
+    G2          B=01 A=01     AxB=0001      6.67%
+    G3          B=01 A=01     AxB=0001      6.67%
+    G4          B=01 A=01     AxB=0001      6.67%
+    G5          B=01 A=01     AxB=0001      6.67%
+    G6          B=01 A=01     AxB=0011      20.00%
+    G7          B=01 A=01     AxB=0101      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0011      13.33%
+    G1          B=01 A=10     AxB=0010      20.00%
+    G2          B=01 A=10     AxB=0010      20.00%
+    G3          B=01 A=10     AxB=0010      20.00%
+    G4          B=01 A=10     AxB=0010      20.00%
+    G5          B=01 A=10     AxB=0010      20.00%
+    G6          B=01 A=10     AxB=0010      20.00%
+    G7          B=01 A=10     AxB=0110      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0011      6.67%
+    G1          B=01 A=11     AxB=0011      6.67%
+    G2          B=01 A=11     AxB=0011      6.67%
+    G3          B=01 A=11     AxB=0011      6.67%
+    G4          B=01 A=11     AxB=0011      6.67%
+    G5          B=01 A=11     AxB=0011      6.67%
+    G6          B=01 A=11     AxB=0011      6.67%
+    G7          B=01 A=11     AxB=0111      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0000      20.00%
+    G1          B=10 A=00     AxB=0000      20.00%
+    G2          B=10 A=00     AxB=0010      6.67%
+    G3          B=10 A=00     AxB=0100      46.67%
+    G4          B=10 A=00     AxB=0000      20.00%
+    G5          B=10 A=00     AxB=0000      20.00%
+    G6          B=10 A=00     AxB=0010      6.67%
+    G7          B=10 A=00     AxB=0100      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0010      13.33%
+    G1          B=10 A=01     AxB=0010      13.33%
+    G2          B=10 A=01     AxB=0010      13.33%
+    G3          B=10 A=01     AxB=0110      40.00%
+    G4          B=10 A=01     AxB=0110      40.00%
+    G5          B=10 A=01     AxB=0010      13.33%
+    G6          B=10 A=01     AxB=0000      0.00%
+    G7          B=10 A=01     AxB=0110      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0100      40.00%
+    G1          B=10 A=10     AxB=0100      40.00%
+    G2          B=10 A=10     AxB=0110      26.67%
+    G3          B=10 A=10     AxB=0100      40.00%
+    G4          B=10 A=10     AxB=0100      40.00%
+    G5          B=10 A=10     AxB=1100      93.33%
+    G6          B=10 A=10     AxB=0110      26.67%
+    G7          B=10 A=10     AxB=0000      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0110      13.33%
+    G1          B=10 A=11     AxB=0110      13.33%
+    G2          B=10 A=11     AxB=0110      13.33%
+    G3          B=10 A=11     AxB=0110      13.33%
+    G4          B=10 A=11     AxB=1010      93.33%
+    G5          B=10 A=11     AxB=1110      66.67%
+    G6          B=10 A=11     AxB=0100      0.00%
+    G7          B=10 A=11     AxB=0010      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0001      46.67%
+    G1          B=11 A=00     AxB=0010      26.67%
+    G2          B=11 A=00     AxB=0010      26.67%
+    G3          B=11 A=00     AxB=0100      13.33%
+    G4          B=11 A=00     AxB=0000      40.00%
+    G5          B=11 A=00     AxB=0000      40.00%
+    G6          B=11 A=00     AxB=0010      26.67%
+    G7          B=11 A=00     AxB=0100      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0011      20.00%
+    G1          B=11 A=01     AxB=0101      33.33%
+    G2          B=11 A=01     AxB=0011      20.00%
+    G3          B=11 A=01     AxB=0111      46.67%
+    G4          B=11 A=01     AxB=0111      46.67%
+    G5          B=11 A=01     AxB=0011      20.00%
+    G6          B=11 A=01     AxB=0001      6.67%
+    G7          B=11 A=01     AxB=0111      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0111      26.67%
+    G1          B=11 A=10     AxB=0110      33.33%
+    G2          B=11 A=10     AxB=1000      73.33%
+    G3          B=11 A=10     AxB=0110      33.33%
+    G4          B=11 A=10     AxB=0110      33.33%
+    G5          B=11 A=10     AxB=1110      86.67%
+    G6          B=11 A=10     AxB=0110      33.33%
+    G7          B=11 A=10     AxB=0010      6.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1001      100.00%
+    G1          B=11 A=11     AxB=1001      100.00%
+    G2          B=11 A=11     AxB=1001      100.00%
+    G3          B=11 A=11     AxB=1001      100.00%
+    G4          B=11 A=11     AxB=1001      100.00%
+    G5          B=11 A=11     AxB=1001      100.00%
+    G6          B=11 A=11     AxB=1001      100.00%
+    G7          B=11 A=11     AxB=1001      100.00%
+
+------------------------------------------------
+Fault Model : S@1 at output Z of the faulty gate
+------------------------------------------------
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=00     AxB=0001      53.33%
+    G1          B=00 A=00     AxB=0010      73.33%
+    G2          B=00 A=00     AxB=0010      73.33%
+    G3          B=00 A=00     AxB=0100      86.67%
+    G4          B=00 A=00     AxB=0100      86.67%
+    G5          B=00 A=00     AxB=1000      6.67%
+    G6          B=00 A=00     AxB=0010      73.33%
+    G7          B=00 A=00     AxB=0100      86.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=01     AxB=0001      6.67%
+    G1          B=00 A=01     AxB=0010      13.33%
+    G2          B=00 A=01     AxB=0010      13.33%
+    G3          B=00 A=01     AxB=0100      26.67%
+    G4          B=00 A=01     AxB=0100      26.67%
+    G5          B=00 A=01     AxB=1000      53.33%
+    G6          B=00 A=01     AxB=0010      13.33%
+    G7          B=00 A=01     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=10     AxB=0001      6.67%
+    G1          B=00 A=10     AxB=0010      13.33%
+    G2          B=00 A=10     AxB=0010      13.33%
+    G3          B=00 A=10     AxB=0100      26.67%
+    G4          B=00 A=10     AxB=0100      26.67%
+    G5          B=00 A=10     AxB=1000      53.33%
+    G6          B=00 A=10     AxB=0010      13.33%
+    G7          B=00 A=10     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=00 A=11     AxB=0001      6.67%
+    G1          B=00 A=11     AxB=0010      13.33%
+    G2          B=00 A=11     AxB=0010      13.33%
+    G3          B=00 A=11     AxB=0100      26.67%
+    G4          B=00 A=11     AxB=0100      26.67%
+    G5          B=00 A=11     AxB=1000      53.33%
+    G6          B=00 A=11     AxB=0010      13.33%
+    G7          B=00 A=11     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=00     AxB=0001      6.67%
+    G1          B=01 A=00     AxB=0010      13.33%
+    G2          B=01 A=00     AxB=0010      13.33%
+    G3          B=01 A=00     AxB=0100      26.67%
+    G4          B=01 A=00     AxB=0100      26.67%
+    G5          B=01 A=00     AxB=1000      53.33%
+    G6          B=01 A=00     AxB=0010      13.33%
+    G7          B=01 A=00     AxB=0100      26.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=01     AxB=0001      6.67%
+    G1          B=01 A=01     AxB=0011      20.00%
+    G2          B=01 A=01     AxB=0011      20.00%
+    G3          B=01 A=01     AxB=0101      33.33%
+    G4          B=01 A=01     AxB=0101      33.33%
+    G5          B=01 A=01     AxB=1001      60.00%
+    G6          B=01 A=01     AxB=0011      20.00%
+    G7          B=01 A=01     AxB=0101      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=10     AxB=0011      13.33%
+    G1          B=01 A=10     AxB=0010      20.00%
+    G2          B=01 A=10     AxB=0100      33.33%
+    G3          B=01 A=10     AxB=0110      46.67%
+    G4          B=01 A=10     AxB=0110      46.67%
+    G5          B=01 A=10     AxB=1010      73.33%
+    G6          B=01 A=10     AxB=0010      20.00%
+    G7          B=01 A=10     AxB=0110      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=01 A=11     AxB=0011      6.67%
+    G1          B=01 A=11     AxB=0011      6.67%
+    G2          B=01 A=11     AxB=0101      46.67%
+    G3          B=01 A=11     AxB=0111      33.33%
+    G4          B=01 A=11     AxB=0111      33.33%
+    G5          B=01 A=11     AxB=1011      60.00%
+    G6          B=01 A=11     AxB=0011      6.67%
+    G7          B=01 A=11     AxB=0111      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=00     AxB=0001      13.33%
+    G1          B=10 A=00     AxB=0010      6.67%
+    G2          B=10 A=00     AxB=0010      6.67%
+    G3          B=10 A=00     AxB=0100      46.67%
+    G4          B=10 A=00     AxB=0100      46.67%
+    G5          B=10 A=00     AxB=1000      73.33%
+    G6          B=10 A=00     AxB=0010      6.67%
+    G7          B=10 A=00     AxB=0100      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=01     AxB=0011      20.00%
+    G1          B=10 A=01     AxB=0100      26.67%
+    G2          B=10 A=01     AxB=0010      13.33%
+    G3          B=10 A=01     AxB=0110      40.00%
+    G4          B=10 A=01     AxB=0110      40.00%
+    G5          B=10 A=01     AxB=1010      66.67%
+    G6          B=10 A=01     AxB=0010      13.33%
+    G7          B=10 A=01     AxB=0110      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=10     AxB=0101      46.67%
+    G1          B=10 A=10     AxB=0110      26.67%
+    G2          B=10 A=10     AxB=0110      26.67%
+    G3          B=10 A=10     AxB=0100      40.00%
+    G4          B=10 A=10     AxB=1000      66.67%
+    G5          B=10 A=10     AxB=1100      93.33%
+    G6          B=10 A=10     AxB=0110      26.67%
+    G7          B=10 A=10     AxB=0100      40.00%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=10 A=11     AxB=0111      20.00%
+    G1          B=10 A=11     AxB=1000      80.00%
+    G2          B=10 A=11     AxB=0110      13.33%
+    G3          B=10 A=11     AxB=0110      13.33%
+    G4          B=10 A=11     AxB=1010      93.33%
+    G5          B=10 A=11     AxB=1110      66.67%
+    G6          B=10 A=11     AxB=0110      13.33%
+    G7          B=10 A=11     AxB=0110      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=00     AxB=0001      46.67%
+    G1          B=11 A=00     AxB=0010      26.67%
+    G2          B=11 A=00     AxB=0010      26.67%
+    G3          B=11 A=00     AxB=0100      13.33%
+    G4          B=11 A=00     AxB=0100      13.33%
+    G5          B=11 A=00     AxB=1000      93.33%
+    G6          B=11 A=00     AxB=0010      26.67%
+    G7          B=11 A=00     AxB=0100      13.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=01     AxB=0011      20.00%
+    G1          B=11 A=01     AxB=0101      33.33%
+    G2          B=11 A=01     AxB=0011      20.00%
+    G3          B=11 A=01     AxB=0111      46.67%
+    G4          B=11 A=01     AxB=0111      46.67%
+    G5          B=11 A=01     AxB=1011      73.33%
+    G6          B=11 A=01     AxB=0011      20.00%
+    G7          B=11 A=01     AxB=0111      46.67%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=10     AxB=0111      26.67%
+    G1          B=11 A=10     AxB=0110      33.33%
+    G2          B=11 A=10     AxB=1000      73.33%
+    G3          B=11 A=10     AxB=0110      33.33%
+    G4          B=11 A=10     AxB=1010      60.00%
+    G5          B=11 A=10     AxB=1110      86.67%
+    G6          B=11 A=10     AxB=0110      33.33%
+    G7          B=11 A=10     AxB=0110      33.33%
+
+Faulty Gate      Inputs        Output       Error
+    G0          B=11 A=11     AxB=1001      100.00%
+    G1          B=11 A=11     AxB=1001      100.00%
+    G2          B=11 A=11     AxB=1001      100.00%
+    G3          B=11 A=11     AxB=1001      100.00%
+    G4          B=11 A=11     AxB=1001      100.00%
+    G5          B=11 A=11     AxB=1001      100.00%
+    G6          B=11 A=11     AxB=1011      86.67%
+    G7          B=11 A=11     AxB=1101      73.33%
+

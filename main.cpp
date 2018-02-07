@@ -38,15 +38,15 @@ using namespace std;
        cout << "------------------------------------------------------- " << endl;
 
     for(int i=0;i<4;i++){
-       cout << "   " << AND2_T[i][0] //X
-            << "     " << AND2_T[i][1] //Y
-            << "   |   " << AND2_T[i][2] //F_Free Output
-            << "     " << AND2_T[i][3] //Output with s@0 at X
-            << "     " << AND2_T[i][4] //Output with s@0 at X
-            << "     " << AND2_T[i][5] //Output with s@0 at X
-            << "     " << AND2_T[i][6] //Output with s@1 at X
-            << "     " << AND2_T[i][7] //Output with s@1 at Y
-            << "     " << AND2_T[i][8] //Output with s@1 at Z
+       cout << "   " << AND2_T[i][0] //Input X
+            << "     " << AND2_T[i][1] //Input Y
+            << "   |   " << AND2_T[i][2] //Fault Free Output
+            << "     " << AND2_T[i][3] //Faulty Gate with s@0 at input X
+            << "     " << AND2_T[i][4] //Faulty Gate with s@0 at input Y
+            << "     " << AND2_T[i][5] //Faulty Gate with s@0 at output Z
+            << "     " << AND2_T[i][6] //Faulty Gate with s@1 at input X
+            << "     " << AND2_T[i][7] //Faulty Gate with s@1 at input Y
+            << "     " << AND2_T[i][8] //Faulty Gate with s@1 at output Z
             << endl;
       }
        cout << "------------------------------------------------------- " << endl;
@@ -86,15 +86,15 @@ using namespace std;
        cout << "------------------------------------------------------- " << endl;
 
        for(int i=0;i<4;i++){
-         cout << "   " << XOR2_T[i][0] //X
-              << "     " << XOR2_T[i][1] //Y
-              << "   |   " << XOR2_T[i][2] //F_Free Output
-              << "     " << XOR2_T[i][3] //Output with s@0 at X
-              << "     " << XOR2_T[i][4] //Output with s@0 at X
-              << "     " << XOR2_T[i][5] //Output with s@0 at X
-              << "     " << XOR2_T[i][6] //Output with s@1 at X
-              << "     " << XOR2_T[i][7] //Output with s@1 at Y
-              << "     " << XOR2_T[i][8] //Output with s@1 at Z
+         cout << "   " << XOR2_T[i][0] //Input X
+              << "     " << XOR2_T[i][1] //Input Y
+              << "   |   " << XOR2_T[i][2] //Fault Free Output
+              << "     " << XOR2_T[i][3] //Faulty Gate with s@0 at input X
+              << "     " << XOR2_T[i][4] //Faulty Gate with s@0 at input Y
+              << "     " << XOR2_T[i][5] //Faulty Gate with s@0 at output Z
+              << "     " << XOR2_T[i][6] //Faulty Gate with s@1 at input X
+              << "     " << XOR2_T[i][7] //Faulty Gate with s@1 at input Y
+              << "     " << XOR2_T[i][8] //Faulty Gate with s@1 at output Z
               << endl;
        }
        cout << "------------------------------------------------------- " << endl;
@@ -143,11 +143,13 @@ main (){
   DataOutput.open("DataFile.txt");
   bool A[2],B[2];
   bool s[4],c[4];
+  bool s_gc[4],c_gc[4];
   // Fault Model Selection
   int f;  // 0=Fault Free, 1=S@0X, 2=S@0Y, 3=S@0Z, 4=S@1X, 5=S@1Y, 6=S@1Z
   int aux;
   bool v[8];
   float e=0.0;
+  int d=0;
 
 /*
   cout << "Prueba compuerta AND2" << endl;
@@ -210,6 +212,17 @@ main (){
                aux = 1;
                   //cout << "Faulty Gate" << endl;
                   DataOutput << endl << "Faulty Gate      Inputs        Output       Error" << endl;
+
+                  // 2-bit width multiplier circuit GOLDEN CASE
+                  c_gc[0]=AND2(B[0],A[0],0,0,0); //G0
+                  s_gc[0]=AND2(B[0],A[1],0,0,0); //G1
+                  s_gc[1]=AND2(B[1],A[0],0,0,0); //G2
+                  s_gc[2]=AND2(B[1],A[1],0,0,0); //G3
+                  s_gc[3]=AND2(s[1],s[0],0,0,0); //G4
+                  c_gc[3]=AND2(s[2],s[3],0,0,0); //G5
+                  c_gc[1]=XOR2(s[1],s[0],0,0,0); //G6
+                  c_gc[2]=XOR2(s[2],s[3],0,0,0); //G7
+
                for(int g=0;g<8;g++){
                   A[1]=j; A[0]=i;
                   B[1]=l; B[0]=k;
@@ -233,6 +246,13 @@ main (){
                   c[1]=XOR2(s[1],s[0],f,v[6],0); //G6
                   c[2]=XOR2(s[2],s[3],f,v[7],0); //G7
 
+                  //error calculation
+                  if (c[0] != c_gc[0])   d=d+1;
+                  if (c[1] != c_gc[1])   d=d+2;
+                  if (c[2] != c_gc[2])   d=d+4;
+                  if (c[3] != c_gc[3])   d=d+8;
+                  float e=(float)d*100/15;
+
                   //cout << "G" << g << "=" <<v[7]<<v[6]<<v[5]<<v[4]<<v[3]<<v[2]<<v[1]<<v[0] <<" ";
                   //cout << "  G" << g << "  => ";
                   DataOutput << "    G" << g;
@@ -240,6 +260,8 @@ main (){
                   DataOutput << "          B=" <<B[1]<<B[0] << " A="<<A[1]<<A[0] << "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0] << "      " << fixed << setprecision(2) << e << "%" << endl;
 
                   aux = aux*2;
+
+                  d=0;
                }
              }
            }
