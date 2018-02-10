@@ -205,7 +205,7 @@ main (){
       }
     DataOutput << "  ------------------------------------------------" << endl;
 
-    DataOutput << "FModel\t FGate \tInputs   \tOutput  \tError\tGolden" << endl;
+    DataOutput << "FModel\t FGate \tInputs   \tOutput  \tGolden\tError" << endl;
 
 
     for(int l=0;l<2;l++){
@@ -270,7 +270,7 @@ main (){
                   //cout << "G" << g << "=" <<v[7]<<v[6]<<v[5]<<v[4]<<v[3]<<v[2]<<v[1]<<v[0] <<" ";
                   //cout << "  G" << g << "  => ";
                   //cout << "          B=" <<B[1]<<B[0] << " A=" <<A[1]<<A[0]<< "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0]<< endl;
-                  DataOutput << "FM=f" << f << "\t FG=g" << g << "\tB=b" <<B[1]<<B[0] << " A=b"<<A[1]<<A[0] << "\tAxB=b" <<c[3]<<c[2]<<c[1]<<c[0] << "\t" << fixed << setprecision(2) << e << "%" << "\t" << "b"<<c_gc[3]<<c_gc[2]<<c_gc[1]<<c_gc[0]<< endl;
+                  DataOutput << "FM=f" << f << "\t FG=g" << g << "\tB=b" <<B[1]<<B[0] << " A=b"<<A[1]<<A[0] << "\tAxB=b" <<c[3]<<c[2]<<c[1]<<c[0] << "\t" << "b"<<c_gc[3]<<c_gc[2]<<c_gc[1]<<c_gc[0] << "\t" << fixed << setprecision(2) << e << "%" << endl;
 
                   aux = aux*2;
 
