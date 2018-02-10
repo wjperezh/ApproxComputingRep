@@ -176,34 +176,37 @@ main (){
 
  for (int f=0;f<7;f++){
 
-    DataOutput << "------------------------------------------------" << endl;
+    DataOutput << "  ------------------------------------------------" << endl;
     switch (f){
        case 0:
-         DataOutput << "Fault Model : Fault Free" << endl;
+         DataOutput << "  Fault Model : f0 = Fault Free" << endl;
          break;
        case 1:
-         DataOutput << "Fault Model : S@0 at input X of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f1 = S@0 at input X of the faulty gate" << endl;
          break;
        case 2:
-         DataOutput << "Fault Model : S@0 at input Y of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f2 = S@0 at input Y of the faulty gate" << endl;
          break;
        case 3:
-         DataOutput << "Fault Model : S@0 at output Z of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f3 = S@0 at output Z of the faulty gate" << endl;
          break;
        case 4:
-         DataOutput << "Fault Model : S@1 at input X of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f4 = S@1 at input X of the faulty gate" << endl;
          break;
        case 5:
-         DataOutput << "Fault Model : S@1 at input Y of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f5 = S@1 at input Y of the faulty gate" << endl;
          break;
        case 6:
-         DataOutput << "Fault Model : S@1 at output Z of the faulty gate" << endl;
+         DataOutput << "  Fault Model : f6 = S@1 at output Z of the faulty gate" << endl;
          break;
        default:
-         DataOutput << "Error, bad fault model selection" << endl;
+         DataOutput << "  Error, bad fault model selection" << endl;
          break;
       }
-    DataOutput << "------------------------------------------------" << endl;
+    DataOutput << "  ------------------------------------------------" << endl;
+
+    DataOutput << "FModel\t FGate \tInputs   \tOutput  \tError\tGolden" << endl;
+
 
     for(int l=0;l<2;l++){
        for(int k=0;k<2;k++){
@@ -211,7 +214,7 @@ main (){
             for(int i=0;i<2;i++){
                aux = 1;
                   //cout << "Faulty Gate" << endl;
-                  DataOutput << endl << "Faulty Gate      Inputs        Output       Error     Golden Case" << endl;
+                  //DataOutput << endl << "Faulty \t   Inputs \t Output \tError\tGolden" << endl;
 
                for(int g=0;g<8;g++){
                   A[1]=j; A[0]=i;
@@ -236,6 +239,7 @@ main (){
                   c[1]=XOR2(s[1],s[0],f,v[6],0); //G6
                   c[2]=XOR2(s[2],s[3],f,v[7],0); //G7
 
+                  //Golden Case
                   if (B[1]==0 && B[0]==0 && A[1]==0 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
                   if (B[1]==0 && B[0]==0 && A[1]==0 && A[0]==1) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
                   if (B[1]==0 && B[0]==0 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=0; c_gc[1]=0; c_gc[0]=0;}
@@ -256,7 +260,7 @@ main (){
                   if (B[1]==1 && B[0]==1 && A[1]==1 && A[0]==0) {c_gc[3]=0; c_gc[2]=1; c_gc[1]=1; c_gc[0]=0;}
                   if (B[1]==1 && B[0]==1 && A[1]==1 && A[0]==1) {c_gc[3]=1; c_gc[2]=0; c_gc[1]=0; c_gc[0]=1;}
 
-                  //error calculation
+                  //Error calculation
                   if (c[0] != c_gc[0])   d=d+1;
                   if (c[1] != c_gc[1])   d=d+2;
                   if (c[2] != c_gc[2])   d=d+4;
@@ -265,9 +269,8 @@ main (){
 
                   //cout << "G" << g << "=" <<v[7]<<v[6]<<v[5]<<v[4]<<v[3]<<v[2]<<v[1]<<v[0] <<" ";
                   //cout << "  G" << g << "  => ";
-                  DataOutput << "    G" << g;
                   //cout << "          B=" <<B[1]<<B[0] << " A=" <<A[1]<<A[0]<< "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0]<< endl;
-                  DataOutput << "          B=" <<B[1]<<B[0] << " A="<<A[1]<<A[0] << "     AxB=" <<c[3]<<c[2]<<c[1]<<c[0] << "      " << fixed << setprecision(2) << e << "%" << "\t" << c_gc[3]<<c_gc[2]<<c_gc[1]<<c_gc[0] << endl;
+                  DataOutput << "FM=f" << f << "\t FG=g" << g << "\tB=b" <<B[1]<<B[0] << " A=b"<<A[1]<<A[0] << "\tAxB=b" <<c[3]<<c[2]<<c[1]<<c[0] << "\t" << fixed << setprecision(2) << e << "%" << "\t" << "b"<<c_gc[3]<<c_gc[2]<<c_gc[1]<<c_gc[0]<< endl;
 
                   aux = aux*2;
 
